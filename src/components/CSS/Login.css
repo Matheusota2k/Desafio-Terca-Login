@@ -1,0 +1,58 @@
+/* Login.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.imgs {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    padding: 5%;
+    margin:auto;
+}
+
+.login {
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #353535;
+    border: 1px solid #C5C2C2;
+    border-radius: 4px;
+}
+
+.buttons {
+    background: #2FB23C;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 40%;
+    padding: 10px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
